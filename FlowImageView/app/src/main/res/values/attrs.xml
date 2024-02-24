@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowImageView">
+        <attr name="item_width" format="dimension|integer" />
+        <attr name="item_height" format="dimension|integer" />
+        <attr name="gap_between_item" format="dimension|integer" />
+    </declare-styleable>
+
+</resources>
