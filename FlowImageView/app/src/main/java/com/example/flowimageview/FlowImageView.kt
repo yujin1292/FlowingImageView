@@ -75,9 +75,9 @@ class FlowImageView : View {
         itemWidthWithGap = itemWidth + gapBetweenItem
     }
 
-    fun setData(_imageUrlList: MutableList<String>, pixelPerSecond: Int) {
-        imageUrlList = _imageUrlList
-        imageBitmapList = MutableList(_imageUrlList.size) { FlowItemImage() }
+    fun setData(imageUrlList: MutableList<String>, pixelPerSecond: Int) {
+        this.imageUrlList = imageUrlList
+        imageBitmapList = MutableList(imageUrlList.size) { FlowItemImage() }
         loadBitmapIntoBitmapList(R.drawable.cookie)
         speed = pixelPerSecond
         invalidate()

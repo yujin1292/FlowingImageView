@@ -10,11 +10,11 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#E8D5FF"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:background="#33000000">
 
         <com.example.flowimageview.FlowImageView
-            android:id="@+id/view"
+            android:id="@+id/flow_image_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:gap_between_item="4dp"
