@@ -1,9 +1,6 @@
 # FlowingImageView
 여러개의 이미지가 흘러가는듯한 이미지 뷰
 
-[![video]()](./flow_image_view.mp4)
-
-
 ## How to use
 
 1. Data setting
